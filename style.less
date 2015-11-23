@@ -1,0 +1,94 @@
+// Style using less
+
+/* Reset, normalize */
+@import "reset.less";
+
+/* Variables to customize */
+@import "variables.less";
+
+/* Mixins */
+@import "mixins.less";
+
+/* CSS3 Mixins */
+@import "css3mixins.less";
+
+/* semantic.gs Gridlayout */
+@import "grid.less";
+
+/* Figure */
+@import "figure.less";
+
+/* Typography */
+@import "typography.less";
+
+/* Navbar */
+@import "navbar.less";
+
+/* Footer byline */
+@import "byline.less";
+
+/* Logo head */
+@import "logohead.less";
+
+/* Theme grid structure */
+@import "structure.less";
+
+/* Font Awesome */
+@import "font-awesome-4.4.0/less/font-awesome.less";
+
+/* Responsiveness / Mobile-first */
+@import "responsive.less";
+
+/**
+ * Layout of the main page elements 
+*/
+html,
+body
+{
+	height: 100%;
+}
+
+body
+{
+	background: @bgBody;
+	color: @colorBody;
+}
+
+#wrapper
+{
+	max-width: @max-widthWrapper;
+	margin: 0 auto;
+}
+
+#header 
+{
+	opacity: @opacityHeader;
+	background: @bgHeader;
+	top: @topHeader; 
+	left: @leftHeader; 
+	height: @heightHeader;
+
+	/* Preserve aspect ratio */
+	min-width: 100%;
+	min-height: 100%;
+	color: @colorHeader;
+}
+
+#content
+{
+	opacity: @opacityContent;
+	background: @bgContent;
+	border: @borderContent;
+	padding: @paddingContent;
+	color: @colorContent;
+}
+
+#footer
+{
+	opacity: @opacityFooter;
+	background: @bgFooter;
+	border: @borderFooter;
+	padding: @paddingFooter;
+	color: @colorFooter;
+	text-align: center;
+}
