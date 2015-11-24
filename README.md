@@ -59,5 +59,6 @@ The script, `style.php`, is a wrapper to the lessphp compiler, enabling autocomp
 Release history
 ------------------------------------------------
 
-*2015-11-24 Updated Readme
-*2015-11-23: Commited Theme.
+2015-11-24 Updated Readme
+
+2015-11-23: Commited Theme.
