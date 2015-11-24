@@ -22,9 +22,12 @@ Read about [clip art best](http://www.clipartbest.com/deer-head-logo), Free clip
 Requirements 
 --------------------------------------
 
-`style.php` requires PHP 5.3 and uses lessphp. 
+`style.php` requires PHP 5.3 and uses lessphp.
+ 
 `responsive.less` from semantic.gs
+
 `style.less` uses and requires Font Awesome.
+
 `style.less` uses and requires `responsive.less` from semantic.gs
 
 Details for lessphp
@@ -55,5 +58,6 @@ The script, `style.php`, is a wrapper to the lessphp compiler, enabling autocomp
 
 Release history
 ------------------------------------------------
-2015-11-24 Updated Readme
-2015-11-23: Commited Theme.
+
+*2015-11-24 Updated Readme
+*2015-11-23: Commited Theme.
